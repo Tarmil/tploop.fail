@@ -1,0 +1,7 @@
+source https://www.nuget.org/api/v2/
+
+storage: none
+
+nuget FSharp.Core ~> 4.3.0
+github fsprojects/FSharp.TypeProviders.SDK src/ProvidedTypes.fsi
+github fsprojects/FSharp.TypeProviders.SDK src/ProvidedTypes.fs
